@@ -8,6 +8,8 @@ const value2 = document.getElementsByClassName('dot2')
 const displayName = document.getElementById("name");
 const skinBox = document.getElementById("skinbox")
 const specie = document.getElementById("specie");
+const male_box = document.getElementById("male");
+const female_box = document.getElementById("female");
 
 function val(params) {
     // value[0].style.background = "green";
@@ -79,6 +81,8 @@ function func(e) {
     skinBox.className = "";
     specie.innerHTML = "Human"
 
+    male_box.style.backgroundColor = "green"
+    female_box.style.backgroundColor = ""
 
 }
 
@@ -104,6 +108,9 @@ function func2(e) {
     // skinBox.style.backgroundColor = "#e28743";
     specie.innerHTML = "Deer";
 
+    male_box.style.backgroundColor = "#0000"
+    female_box.style.backgroundColor = "green"
+
 }
 
 function func3(params) {
@@ -124,6 +131,9 @@ function func3(params) {
     skinBox.className = "skinbox3"
     // skinBox.style.backgroundColor = "gold";
     specie.innerHTML = "Cyborg"
+
+    male_box.style.backgroundColor = "green"
+    female_box.style.backgroundColor = ""
 
 
 }
@@ -146,7 +156,8 @@ function func4(params) {
     skinBox.className = "skinbox3"
     specie.innerHTML = "Robot"
 
-
+    male_box.style.backgroundColor = "green"
+    female_box.style.backgroundColor = ""
 
 }
 
@@ -167,6 +178,9 @@ function func5(params) {
     displayName.innerHTML = "SPORD";
     specie.innerHTML = "Mushroom";
     skinBox.className = "skinbox4";
+
+    male_box.style.backgroundColor = "green"
+    female_box.style.backgroundColor = ""
 }
 
 
