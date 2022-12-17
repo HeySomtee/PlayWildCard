@@ -1,0 +1,214 @@
+.char-frame
+{
+    overflow: hidden;
+    
+}
+
+.char-img
+{
+    margin-top: 200%;
+    animation: 3s forwards;
+}
+
+.char-info
+{
+    padding: 1%;
+}
+
+@keyframes key
+{
+    0%
+    {
+        margin-top: 200%;
+    }
+
+    100%
+    {
+        margin-top: -10%;
+    }
+
+    
+}
+
+#name
+{
+    width: 35vw;
+    height: 5vh;
+    background-color: transparent;
+    box-shadow: rgba(28, 201, 42, 0.705) 3px 3px 6px 0px inset, rgb(30, 201, 30) -3px -3px 6px 1px inset;
+}
+
+#genderbox
+{
+    width: 10vw;
+    height: 10vh;
+    background-color: antiquewhite;
+    /* float: left; */
+    border: solid white;
+
+}
+
+#ff
+{
+    float: left;
+}
+
+#ss
+{
+    float: right;
+    margin-right: 5vw;
+}
+
+#skinbox
+{
+    width: 23vw;
+    height: 10vh;
+    background-color: antiquewhite;
+    float: right; 
+    border: solid white;
+}
+
+#stat
+{
+    margin-top: 10%;
+}
+
+.wrapper div
+{
+    margin-top: 5%;
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+    margin-left: 5%;
+    
+}
+
+.sec
+{
+    clear: both;
+    margin-top: -10%;
+}
+
+.wrapper span
+{
+    
+    margin-top: 5%;
+    font-size: x-large;
+    font-weight: 500;
+    float: left;
+}
+
+.genderbox 
+{
+    font-size: 100px;
+}
+
+.gen
+{
+    font-size: xx-large;
+    display: grid;
+    place-items: center;
+    width: 4vw;
+    /* background-color: green; */
+    height: 5vh;
+    float: left;
+    padding: 5px;
+}
+
+#male
+{
+    background-color: green;
+}
+
+#tit
+{
+    font-size: 1.5rem;
+    /* width: 25vw; */
+    margin-top: 20vh;
+    /* display: grid; */
+    place-items: center;
+    /* margin-left: 4vw; */
+}
+
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+#tit h1 {
+  /* font-size: calc(20px + 18vh); */
+  /* line-height: calc(20px + 20vh); */
+/*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+    0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+  color: #fccaff; */
+  text-shadow: 0 0 5px #5eff00, 0 0 15px #15ff00, 0 0 20px #33ff00, 0 0 40px #15ff00, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #b3ffa9;
+  /* font-family: "Sacramento", cursive; */
+  text-align: center;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+}
+
+
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+  text-shadow: 0 0 5px #51ff00, 0 0 15px #33ff00, 0 0 20px #48ff00, 0 0 40px #1eff00, 0 0 60px #73ff00, 0 0 10px #33ff00, 0 0 98px #15ff00;
+    color: #b7ffa9;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+  text-shadow: 0 0 5px #00ff0d, 0 0 15px #66ff00, 0 0 20px #15ff00, 0 0 40px #73ff00, 0 0 60px #33ff00, 0 0 10px #2bff00, 0 0 98px #3cff00;
+    color: #a9ffa9;
+  }
+}
+
+#dna-div
+{
+  background-color: transparent;
+  width: 15vw; height: 25vh;
+  display: grid;
+  /* place-items: center; */
+  place-content: center;
+   float: right;
+   margin-top: -20vh;
+}
+
+#rna{
+  width: 15vw;
+  height: 25vh;
+}

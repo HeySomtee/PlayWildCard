@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WildCard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="avatar.css">
+    <link rel="stylesheet" href="mobile.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="logo">
+            <img src="/logo.png" alt="">
+        </div>
+        <div class="nav">
+            <div class="character-display">
+                <div onclick="func()" class="div gg1" id="div">
+                    <img class="charImg" src=" /frame.png" alt="">
+                    <img class="avatar" src="bear.png" alt="">
+                    <div class="middle-child" id="middle-child1"></div>
+                </div>
+    
+                <div onclick="func2()" class="div" id="div1">
+                    <img class="charImg" src=" /frame.png" alt="">
+                    <img class="avatar" src="bear.png" alt="">
+                    <div class="middle-child" id="middle-child2"></div>
+                </div>
+                
+                <div onclick="func3()" class="div" id="div2">
+                    <img class="charImg" src=" /frame.png" alt="">
+                    <img class="avatar" src="bear.png" alt="">
+                    <div class="middle-child" id="middle-child3"></div>
+                </div>
+    
+                <div onclick="func4()" class="div" id="div3">
+                    <img class="charImg" src=" /frame.png" alt="">
+                    <img class="avatar" src="bear.png" alt="">
+                    <div class="middle-child" id="middle-child4"></div>
+                </div>
+    
+                <div onclick="func5()" class="div" id="div4">
+                    <img class="charImg" src=" /frame.png" alt="">
+                    <img class="avatar" src="bear.png" alt="">
+                    <div class="middle-child" id="middle-child5"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-char">
+            <div class="char-frame" id="char-frame">
+                <div id="tit">
+                    <H1>CHOOSE YOUR CHAMPION</H1>
+                </div>
+                <img class="char-img" id="char-img" src="/char-two.png" alt="character-one">
+            </div>
+            
+            <div class="char-info">
+               <div class="infoBox">
+                <h2>Display Name</h2>
+                <textarea name="" id="name" cols="30" rows="10"></textarea>
+               </div>
+               
+               <div id="ff">
+                    <h2>Gender</h2>
+                        <div id="genderbox">
+                            <div id="male" class="gen"><i class="fa-solid fa-mars-stroke"></i></div>
+                            <div id="female" class="gen"><i class="fa-solid fa-venus"></i></div>
+                        </div>
+               </div>
+
+               <div id="ss">
+                    <h2>Skin color</h2>
+                        <div id="skinbox">
+
+                        </div>
+               </div>
+
+               <div id="stat">
+                
+                <div class="wrapper sec">
+                    <span class="stat-title yoman"><b>Strenght</b></span><div class="dot" id="new"></div> <div class="dot"></div> <div class="dot"></div> <div class="dot"></div><div class="dot"></div><div class="dot" id="clear"></div>
+                </div>                    
+
+                    <div class="wrapper sec">
+                        <br>
+                        <span class="stat-title yoman">Speed</span><div class="dot1"></div><div class="dot1"></div> <div class="dot1"></div> <div class="dot1"></div> <div class="dot1"></div> <div class="dot1"></div>
+                    </div>
+
+                    <div class="wrapper sec">
+                        <br>
+                        <span class="stat-title yoman">Durability</span> <div class="dot2"></div> <div class="dot2"></div> <div class="dot2"></div> <div class="dot2"></div> <div class="dot2"></div> <div class="dot2"></div>
+                    </div>
+
+                    
+               </div>
+
+               <div id="dna-div">
+                <h2>DNA: <span id="specie" style="color: red;">Human</span></h2> 
+                
+                <img id="rna" src="/gif-one(1).gif" alt="">
+           </div>
+              
+            </div>
+        </div>
+        <script src="avatar.js"></script>
+        <script src="script.js"></script> 
+    </div>
+
+    
+</body>
+</html>
